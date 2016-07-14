@@ -103,8 +103,7 @@ footer {
 .sidebar {
 	background: #fff;
 	padding: 30px;
-	width: 100%;
-	max-width: 270px;
+	width: 30%;
 	float: right;
 	border: 1px solid #ddd;
 	margin-bottom: 20px;
@@ -135,8 +134,7 @@ h3,
 	background: #fff;
 	padding: 30px;
 	margin: 0 0 40px 0;
-	width: 100%;
-	max-width: 650px;
+	width: 65%;
 	float: left;
 	border: 1px solid #ddd;
 }
@@ -213,6 +211,7 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
 @media screen and (max-width: 980px){
     .container{
         width: 100%
@@ -221,12 +220,14 @@ input[type=submit] {
         background: #fff;
         padding: 30px;
         width: 65%;
+				float: left;
         border: 1px solid #bbb;
     }
     .sidebar {
         background: #fff;
         padding: 30px;
-        width: 35%;
+        width: 30%;
+				float: right;
         border: 1px solid #ddd;
         margin-bottom: 20px;
     }
@@ -248,3 +249,16 @@ input[type=submit] {
         border: 1px solid #ddd;
 
 }
+@media screen and (max-width: 640px) {
+
+
+.masthead {
+	postion: fixed;
+	}
+
+ul {
+    margin-bottom: -3px;
+ }
+a {
+    padding-right: 70px;
+    padding-left: 25px;
